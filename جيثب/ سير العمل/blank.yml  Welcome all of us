@@ -1,0 +1,26 @@
+name: CI abod
+
+on: [push]We are eager to work to find out what it is
+ 
+build: Hello World Project is a long tradition of computer programming.  It is a simple exercise that begins when learning something new.  Let's start with GitHub!
+
+ You will learn how to:
+
+ Create and use a warehouse
+ Start and manage a new branch
+ Make changes to a file and push it to GitHub as an action
+ Opening and merging the withdrawal request
+
+
+
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
